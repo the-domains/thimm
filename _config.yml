@@ -1,28 +1,40 @@
-name: thimm
 favicon: null
-layout_spectrum: 0.9240799604449421
-typography_spectrum: 0.7558009438216686
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: thimm
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.06235302775166929
+  brandStrength: 0.9607117183040828
+  rhythmicContrast: 0.340998018393293
   brandColors:
     - '#E0FBFC'
     - '#C2DFE3'
     - '#9DB4C0'
     - '#5C6B73'
     - '#253237'
-  brandStrength: 0.9607117183040828
-  lightness: 0.23930536955595016
-  saturation: 0.06235302775166929
-  rhythmicContrast: 0.340998018393293
-purpose: []
+  lightness: 0.2393053695559502
+typography_spectrum: 0.7558009438216686
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
